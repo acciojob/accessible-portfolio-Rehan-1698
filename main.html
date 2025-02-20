@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Navigation -->
+    <nav>
+        <ul role="list">
+            <li><a href="#">about</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <header>
+        <h1 role="heading">Welcome to My Portfolio</h1>
+    </header>
+
+    <!-- Image Section -->
+    <section id="about">
+        <img role="img" src="image.jpg" height="150" alt="A portrait of the portfolio owner" />
+        <p>Hi, I'm MUHAMMAD, a web developer with a passion for creating accessible websites. I specialize in front-end technologies and am committed to making the web a better place for everyone, including those with disabilities.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 role="heading">My Projects</h2>
+        <ul role="list">
+            <li role="listitem">Project 1: Accessible Web Design</li>
+            <li role="listitem">Project 2: E-commerce Website</li>
+            <li role="listitem">Project 3: Mobile App Development</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 role="heading">Contact Me</h2>
+        <p>Feel free to reach out to me via email at <a href="mailto:john.doe@example.com">john.doe@example.com</a>.</p>
+    </section>
 
 </body>
-
 </html>
